@@ -13,7 +13,7 @@ const menu = (props)=>{
                 <i>MEME GENERATOR</i>
             </div>
             <NavLink className = {Styles.MenuItem} activeClassName={Styles.ActiveItem} exact to = '/'>Meme Generator</NavLink>
-            <NavLink className = {Styles.MenuItem} activeClassName={Styles.ActiveItem} to = '/history'>History</NavLink>
+            {/* <NavLink className = {Styles.MenuItem} activeClassName={Styles.ActiveItem} to = '/history'>History</NavLink> */}
         </nav>
     </div>
     );
